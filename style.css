@@ -104,15 +104,19 @@ header {
   font-weight: 700;
   text-transform: uppercase;
 }
- /* event time related work */
+/* event time related work */
 
- .event-container {
+.event-container {
   border-radius: 16px;
-  background: linear-gradient(180deg, rgba(255, 0, 0, 0.1), rgba(255, 0, 0, 0) 100%);
+  background: linear-gradient(
+    180deg,
+    rgba(255, 0, 0, 0.1),
+    rgba(255, 0, 0, 0) 100%
+  );
   width: 1320px;
   height: 482px;
   margin: 130px auto;
-  
+
   display: flex;
   flex-direction: column; /* Stack items vertically */
   justify-content: center;
@@ -134,12 +138,12 @@ header {
 
 .event-container button {
   border-radius: 8px;
-  background: rgb(255, 0, 0); 
+  background: rgb(255, 0, 0);
   color: rgb(255, 255, 255);
   width: 167px;
   display: flex;
   justify-content: center;
-  align-items: center; 
+  align-items: center;
   padding: 16px 32px;
   border: 0;
   margin-top: 25px; /* Space between the paragraph and the button */
@@ -158,7 +162,7 @@ header {
 }
 
 /* Best offer related work */
-.new-offer-container{
+.new-offer-container {
   width: 1320px;
   margin: 130px auto;
   display: flex;
@@ -167,18 +171,18 @@ header {
   gap: 15px;
 }
 /* div-1 related work*/
-.best-offer{
+.best-offer {
   width: 393px;
 }
-.best-offer h4{
+.best-offer h4 {
   color: rgb(255, 0, 0);
-font-family: Inter;
-font-size: 24px;
-font-weight: 500;
-text-transform: uppercase;
-margin: 0px;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+  text-transform: uppercase;
+  margin: 0px;
 }
-.best-offer h3{
+.best-offer h3 {
   color: rgb(7, 2, 17);
   font-family: Merriweather;
   font-size: 48px;
@@ -186,22 +190,22 @@ margin: 0px;
   text-transform: capitalize;
   margin: 0px;
 }
-.best-offer p{
+.best-offer p {
   color: rgba(7, 2, 17, 0.6);
-font-family: Inter;
-font-size: 20px;
-font-weight: 400;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 400;
 }
 
 /* div-2 related work */
-  .lighting-img-container{
-     display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 463px;
-    height: 463px;
-    border: 15px solid rgb(255, 0, 0);
-    border-radius: 50%;
+.lighting-img-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 463px;
+  height: 463px;
+  border: 15px solid rgb(255, 0, 0);
+  border-radius: 50%;
 }
 .center-image {
   width: 90%;
@@ -210,25 +214,70 @@ font-weight: 400;
 }
 
 /* div-3 related work */
-.new-year-box{
+.new-year-box {
   width: 393px;
   margin-left: auto;
 }
-.new-year-box h3{
+.new-year-box h3 {
   color: rgb(255, 0, 0);
-font-family: Inter;
-font-size: 48px;
-font-weight: 700;
-margin: 0px;
+  font-family: Inter;
+  font-size: 48px;
+  font-weight: 700;
+  margin: 0px;
 }
-.new-year-box p{
+.new-year-box p {
   color: rgba(7, 2, 17, 0.6);
-font-family: Inter;
-font-size: 20px;
-font-weight: 400;
-margin: 0px;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 400;
+  margin: 0px;
 }
-/* .new-year-box img{
-width: 14.61px;
- height: 17.63px;
-} */
+
+/* Holidays sale related work */
+.holidays-sale-container {
+  width: 1320px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  text-align: center;
+  margin: 130px auto;
+}
+.holidays-sale-container h5 {
+  color: rgb(7, 2, 17);
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+  text-transform: uppercase;
+  margin: 0px;
+}
+.holidays-sale-container h3 {
+  font-family: Merriweather;
+  font-size: 72px;
+  font-weight: 900;
+  color: rgb(7, 2, 17);
+  margin: 0px;
+}
+.holidays-sale-container p {
+  color: rgba(7, 2, 17, 0.6);
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 500;
+  padding: 0px 130px;
+}
+
+/* Holiday-container image related work */
+.sale-img-container {
+  width: 1320px;
+  height: 662px;
+  margin: 130px auto;
+  background-image: url("images/Rectangle 2.png"), url("images/Rectangle 1.png");
+  background-repeat: no-repeat;
+  background-size: auto, auto;
+  background-position: bottom, right top;
+  display: flex;
+  /* padding-right: 100px; */
+}
+.holiday-sale-img {
+  width: 100%;
+}
