@@ -267,10 +267,40 @@ header {
 }
 
 /* Holiday-container image related work */
+.holiday-sale{
+  text-align: center;
+  margin-top: 130px auto;
+}
+.holiday-sale h5{
+  color: rgb(7, 2, 17);
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 29px;
+  margin: 0px;
+}
+.holiday-sale h3{
+  font-family: Merriweather;
+font-size: 72px;
+font-weight: 900;
+line-height: 91px;
+color: rgb(7, 2, 17);
+margin: 0px;
+}
+.holiday-sale p{
+  color: rgba(7, 2, 17, 0.6);
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 32px;
+  margin: 0px 500px;
+
+}
+
 .sale-img-container {
   width: 1320px;
   height: 662px;
-  margin: 130px auto;
+  margin: 64px auto;
   background-image: url("images/Rectangle 2.png"), url("images/Rectangle 1.png");
   background-repeat: no-repeat;
   background-size: auto, auto;
