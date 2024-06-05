@@ -104,3 +104,131 @@ header {
   font-weight: 700;
   text-transform: uppercase;
 }
+ /* event time related work */
+
+ .event-container {
+  border-radius: 16px;
+  background: linear-gradient(180deg, rgba(255, 0, 0, 0.1), rgba(255, 0, 0, 0) 100%);
+  width: 1320px;
+  height: 482px;
+  margin: 130px auto;
+  
+  display: flex;
+  flex-direction: column; /* Stack items vertically */
+  justify-content: center;
+  align-items: center; /* Center items horizontally */
+}
+
+.red-clr {
+  color: rgb(255, 0, 0);
+}
+
+.event-container p {
+  font-family: Inter;
+  font-size: 32px;
+  font-weight: 600;
+  text-transform: capitalize;
+  color: rgb(7, 2, 17);
+  margin: 0;
+}
+
+.event-container button {
+  border-radius: 8px;
+  background: rgb(255, 0, 0); 
+  color: rgb(255, 255, 255);
+  width: 167px;
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  padding: 16px 32px;
+  border: 0;
+  margin-top: 25px; /* Space between the paragraph and the button */
+}
+
+.happy-new-year h3 {
+  font-family: Merriweather;
+  font-size: 48px;
+  font-weight: 900;
+  text-transform: capitalize;
+}
+
+.happy-new-year img {
+  margin-top: 20px;
+  width: 150px; /* Adjust as needed */
+}
+
+/* Best offer related work */
+.new-offer-container{
+  width: 1320px;
+  margin: 130px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+/* div-1 related work*/
+.best-offer{
+  width: 393px;
+}
+.best-offer h4{
+  color: rgb(255, 0, 0);
+font-family: Inter;
+font-size: 24px;
+font-weight: 500;
+text-transform: uppercase;
+margin: 0px;
+}
+.best-offer h3{
+  color: rgb(7, 2, 17);
+  font-family: Merriweather;
+  font-size: 48px;
+  font-weight: 900;
+  text-transform: capitalize;
+  margin: 0px;
+}
+.best-offer p{
+  color: rgba(7, 2, 17, 0.6);
+font-family: Inter;
+font-size: 20px;
+font-weight: 400;
+}
+
+/* div-2 related work */
+  .lighting-img-container{
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 463px;
+    height: 463px;
+    border: 15px solid rgb(255, 0, 0);
+    border-radius: 50%;
+}
+.center-image {
+  width: 90%;
+  height: 90%;
+  object-fit: cover; /* Ensure the image covers the entire container */
+}
+
+/* div-3 related work */
+.new-year-box{
+  width: 393px;
+  margin-left: auto;
+}
+.new-year-box h3{
+  color: rgb(255, 0, 0);
+font-family: Inter;
+font-size: 48px;
+font-weight: 700;
+margin: 0px;
+}
+.new-year-box p{
+  color: rgba(7, 2, 17, 0.6);
+font-family: Inter;
+font-size: 20px;
+font-weight: 400;
+margin: 0px;
+}
+/* .new-year-box img{
+width: 14.61px;
+ height: 17.63px;
+} */
